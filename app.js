@@ -25,7 +25,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var logger = require('morgan');
 var errorHandler = require('errorhandler');
-var multipart = require('connect-multiparty')
+var multipart = require('connect-multiparty');
 var multipartMiddleware = multipart();
 
 // all environments
